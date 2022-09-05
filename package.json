@@ -1,5 +1,5 @@
 {
-  "name": "@example/minimal",
+  "name": "astro-theme-foundation",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,5 +12,7 @@
   "dependencies": {
     "astro": "^1.1.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@astrojs/sitemap": "^1.0.0"
+  }
 }

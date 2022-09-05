@@ -1,16 +1,25 @@
 ---
+import BaseHead from "../components/BaseHead.astro";
+import type { Props as BaseHeadProps } from '../components/BaseHead.astro';
 
+
+export interface Props {
+	seo?: BaseHeadProps;
+}
+
+const { seo } = Astro.props;
 ---
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<slot></slot>
-	</body>
+  <head>
+    <BaseHead {...seo} />
+    <slot name="head-bottom" />
+  </head>
+  <body>
+    <slot name="header" />
+    <main>
+      <slot />
+    </main>
+    <slot name="footer" />
+  </body>
 </html>
