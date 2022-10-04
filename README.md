@@ -50,6 +50,24 @@ npm i && npm start
 
 ## Deploy
 
-Deploy this site to your favorite static hosting service using Astro's docs or quickly deploy to Netlify with the button below 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/littlesticks/simple-blog-astro)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/littlesticks/REPLACEME)
+Feel free to deploy and host your site on your favorite static hosting service such as Netlify, Firebase Hosting, Vercel, GitHub Pages, etc.
+
+Astro has [an in-depth guide](https://docs.astro.build/en/guides/deploy/) on how to deploy an Astro project to each service.
+
+## Sponsor
+
+If you find this theme useful, please consider donating to support the continued development of it with the link below
+
+[Donate to Little Sticks](https://buy.stripe.com/REPLACEME)
+
+## Support
+
+Please feel free to reach out to us on our Discord if you have questions or file an issue on the repo.
+
+[Join our Discord](https://littlesticks.dev/discord)
+
+## License
+
+MIT
